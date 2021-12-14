@@ -8,7 +8,7 @@ $(document).ready(function(){
     document.getElementById("url").focus();
   }, 100);
   setTimeout(() => {
-     M.toast({html: "<img width='350px' src='blocked-example.PNG' style='padding-right: 15px;' alt='Blocked Warning Example' /><h4><b><u>Important Information:</u></b> After getting sent many images like the one on the left, we have decided to <b>create more domains for you to accees Goolag</b>. There is also a high likelihood that bypass.cf will go down on December 23rd, 2022, but that's a long time from now. <a href=https://bypass.cf><b>bypass.cf</b></a> is the currently the only alternate domain.</h4>", displayLength: "10000"})
+     M.toast({html: "<img width='350px' src='blocked-example.PNG' style='padding-right: 15px;' alt='Blocked Warning Example' /><h4><b><u>Important Information:</u></b> After getting sent many images like the one on the left, we have decided to <b>create more domains for you to accees Goolag</b>. There is also a high likelihood that goolag.app will go down on December 23rd, 2022, but that's a long time from now. <a href=https://bypass.cf><b>bypass.cf</b></a> is the currently the only alternate domain.</h4>", displayLength: "10000"})
   }, 500);
 });
 
