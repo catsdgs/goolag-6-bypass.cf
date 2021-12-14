@@ -8,7 +8,7 @@ $(document).ready(function(){
     document.getElementById("url").focus();
   }, 100);
   setTimeout(() => {
-     M.toast({html: "<img width='350px' src='blocked-example.PNG' style='padding-right: 15px;' alt='Blocked Warning Example' /><h4><b><u>Important Information:</u></b> After getting sent many images like the one on the left, we have decided to <b>create more domains for you to accees Goolag</b>. There is also a high likelihood that goolag.app will go down on December 23rd, 2022, but that's a long time from now. New domains will be announced shortly.</h4>", displayLength: "10000"})
+     M.toast({html: "<img width='350px' src='blocked-example.PNG' style='padding-right: 15px;' alt='Blocked Warning Example' /><h4><b><u>Important Information:</u></b> After getting sent many images like the one on the left, we have decided to <b>create more domains for you to accees Goolag</b>. There is also a high likelihood that bypass.cf will go down on December 23rd, 2022, but that's a long time from now. <a href=https://bypass.cf><b>bypass.cf</b></a> is the currently the only alternate domain.</h4>", displayLength: "10000"})
   }, 500);
 });
 
@@ -39,7 +39,7 @@ function option1() {
       if(url.substr(0,4) != "http"){
         url = "http://" + url;
       }
-      window.location.href= 'https://option1.goolag.app/main/' + url;
+      window.location.href= 'https://option1.bypass.cf/main/' + url;
       return false;
     }, wait);
 }
@@ -52,7 +52,7 @@ function option2() {
   } else {
     showFrame();
     setTimeout(() => {
-      $('#mainForm').attr('action', 'https://option2.goolag.app/createSession');
+      $('#mainForm').attr('action', 'https://option2.bypass.cf/createSession');
       $('#mainForm').attr('method', 'POST');
       document.getElementById('mainForm').submit();
     }, wait);
@@ -66,7 +66,7 @@ function option3() {
   } else {
     showFrame();
     setTimeout(() => {
-      $('#mainForm').attr('action', 'https://option3.goolag.app/prox');
+      $('#mainForm').attr('action', 'https://option3.bypass.cf/prox');
       $('#mainForm').attr('method', 'POST');
       document.getElementById('mainForm').submit();
     }, wait);
@@ -85,7 +85,7 @@ function option4() {
       if(url.substr(0,4) != "http"){
         url = "http://" + url;
       }
-      window.location.href= 'https://option4.goolag.app/main/' + url;
+      window.location.href= 'https://option4.bypass.cf/main/' + url;
       return false;
     }, wait);
 }
@@ -103,7 +103,7 @@ function option5() {
       if(url.substr(0,4) != "http"){
         url = "http://" + url;
       }
-      window.location.href= `https://option5.goolag.app/prox/?url=${btoa(url)}`;
+      window.location.href= `https://option5.bypass.cf/prox/?url=${btoa(url)}`;
       return false;
     }, wait);
 }
@@ -121,7 +121,7 @@ function option6() {
       if(url.substr(0,4) != "http"){
         url = "http://" + url;
       }
-      window.location.href= 'https://option6.goolag.app/main/' + url;
+      window.location.href= 'https://option6.bypass.cf/main/' + url;
       return false;
     }, wait);
 }
