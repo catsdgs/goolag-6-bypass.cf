@@ -1,1 +1,1 @@
-goolag-6-bypass.cf
+# The new domain for Goolag
